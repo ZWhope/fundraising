@@ -1,0 +1,98 @@
+body{margin:0px;padding:0px;background-color:#5a4882;margin:0;padding:0;background-size:1200% 1200%;color:#fff;font-family:'Calibri'}
+.wrapper{padding:5px;max-width:1024px;width:90%;margin:1px auto}
+header{margin:0px;width:100%;padding:20px;margin-bottom:15px;margin-top:-1px}
+h2{margin-left:0px;padding-left:0px;margin:0px;
+}
+.logo{
+width:100px;
+}
+.logosmall{
+width:30px;
+padding:20px;
+}
+#banner li {
+    list-style:none;
+    display:inline;
+    float:left;
+}
+#banner ul
+{
+    list-style-type:none;
+    display:inline;
+}
+footer{
+width:100%;
+min-height:30px;
+margin:0px;
+padding:0px;
+}
+    .headerleft {
+        float: left;
+        width: 70%;
+    }
+    .headerright {
+        float: right;
+        width: 40%;
+    }
+    .left {
+        float: left;
+        width: 50%;
+    }
+    .right {
+        float: right;
+        width: 48%;
+    }
+     .left2 {
+        float: left;
+        width: 50%;
+    }
+    .right2 {
+        float: right;
+        width: 48%;
+        margin:auto;
+        text-align:center;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+        text-decoration: none; border: 0px
+    }
+    .group:after {
+        content:"";
+        display: table;
+        clear: both;
+    }
+     .group2:after {
+        content:"";
+        display: table;
+        clear: both;
+    }
+    @media screen and (max-width: 480px) {
+        .left, .right {
+            float: none;
+            width: auto;
+        }
+		.left2, .right2 {
+            float: none;
+            width: auto;
+        }
+
+		.headerleft, .headerright {
+            float: none;
+            width: auto;
+        }
+    }
+p {
+font-weight:normal;
+}
+img{
+width:100%;
+border-radius:5px;
+}
+#banner{
+width:100%;
+min-height:50px;
+margin:0px;
+padding:0px;
+margin-top:-2px;
+}

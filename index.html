@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!--Created by AKARI agf.earth - MIT License - Copyright © - Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the “Software”), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.-->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="initial-scale = 1.0" />
+<link rel="stylesheet" href="style.css" type="text/css">
+<title>Fundraising ZWHope for Zimbabwe</title>
+</head>
+<body>
+
+
+<header id="banner">
+	<div class="wrapper">
+	<div class="group">
+		<div class="headerleft">
+		<ul>
+		<br>
+		<li><a href="#"><img class="logo" src="logo.png"></a></li><li style="margin-left:10px;"><br><br><h2 id="fundtitle">[Loading]</h2></li>
+		</div>
+	</div>
+	</div>
+</header>
+
+
+<div class="wrapper">
+
+
+<center><h2 style="padding:15px;" id="fundmessage">[Loading]</h2></center>
+
+<div class="group">
+
+<div class="left">
+<img src="fundpic.jpg" alt="" />
+</div>
+
+
+
+<br><br>
+
+<center><a target="nw" href="donate/donate.html" id="donatepage" class="button" style="margin:20px;padding:0px;text-decoration:none;-webkit-box-shadow: 0px 0px 7px 4px rgba(46,46,46,0.09);-moz-box-shadow: 0px 0px 7px 4px rgba(46,46,46,0.09);box-shadow: 0px 0px 7px 4px rgba(46,46,46,0.09);margin:0px;padding:15px;border-radius:10px;border:10px solid #ddf4e4;text-align:center;margin:auto;min-width:222px;background-color:#ddf4e4;">
+Become a Fundraiser</a>
+</center>
+
+
+<!-- Set your donate page hard-link -->
+<script>
+	$.get("front_donatelink.txt", function(donatelink) {
+	window.donateurl = donatelink;
+	$("a#donatepage.button").attr("href", window.donateurl);
+	});
+</script>
+
+
+
+<br><br>
+</div> <!-- end right -->
+</div> <!-- end group -->
+<div style="clear:both;width:100%;">&nbsp;</div>
+
+<div class="group2">
+
+
+<div class="right2">
+<br>
+<center><div class="box" style="padding:15px;max-width:200px;-webkit-box-shadow: 0px 0px 7px 4px rgba(46,46,46,0.09);-moz-box-shadow: 0px 0px 7px 4px rgba(46,46,46,0.09);box-shadow: 0px 0px 7px 4px rgba(46,46,46,0.09);">
+
+<center><p class="lighter">About the Fund Creator</p>
+<p id="fundcreator">Loading</p>
+<!--<p id="emailaddress">Loading</p>-->
+<!--<p id="socialmedia">Loading</p>-->
+
+
+</div></center>
+<br><br>
+</div> <!-- end right2 -->
+</div> <!-- end group2 -->
+
+
+
+
+
+
+
+</div> <!-- end wrapper -->
+
+
+
+
+<!-- Update front_goal.txt to set a fundraising goal -->
+<script>
+	$.get("front_goal.txt", function(response) {
+	var goaltxt = response;
+    window.value1 = parseFloat(goaltxt);
+	});
+</script>
+
+
+
+
+
+
+
+
+<br><br>
+<footer class="banner">
+<!--delete this if you like:--><center><a href="#"><img class="logosmall" src="logo.png"></a><br><a style="color:#fff;text-decoration:none;margin:auto;text-align:center;font-size:0.8em;outline:none;" href="https://github.com/AKARI-B3/akaripages">&nbsp;&nbsp;&nbsp;&nbsp; AKARI-PAGES v0.1 — GRAB &nabla;</a></center><br>
+
+</footer>
+
+</div>
+</div> <!-- end wrapper-->
+
+
+
+
+
+</body>
+</html>
