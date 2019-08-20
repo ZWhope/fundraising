@@ -30,7 +30,8 @@ THE SOFTWARE.-->
 		<div class="headerleft">
 		<ul>
 		<br>
-		<li><a href="#"><img class="logo" src="logo.png"></a></li><li style="margin-left:10px;"><br><br><h2 id="fundtitle">[Loading]</h2></li>
+		<li><a href="#"><img class="logo" src="logo.png"></a></li><li style="margin-left:10px;"><br><br><h2 id="fundtitle">
+			Zimbabweans Fundraising</h2></li>
 		</div>
 	</div>
 	</div>
@@ -40,7 +41,10 @@ THE SOFTWARE.-->
 <div class="wrapper">
 
 
-<center><h2 style="padding:15px;" id="fundmessage">[Loading]</h2></center>
+<center><h4 style="padding:30px;" id="fundmessage">
+	We are doing this fundraising to help directly the people and citizens of Zimbabwe. <br>
+	We hope that with your help, we will be able to build their future (with new schools) <br>
+	but also their present : they need food. As the crisis is still going, they even cannot afford a rice pack.</h4></center>
 
 <div class="group">
 
@@ -52,18 +56,10 @@ THE SOFTWARE.-->
 
 <br><br>
 
-<center><a target="nw" href="donate/donate.html" id="donatepage" class="button" style="margin:20px;padding:0px;text-decoration:none;-webkit-box-shadow: 0px 0px 7px 4px rgba(46,46,46,0.09);-moz-box-shadow: 0px 0px 7px 4px rgba(46,46,46,0.09);box-shadow: 0px 0px 7px 4px rgba(46,46,46,0.09);margin:0px;padding:15px;border-radius:10px;border:10px solid #ddf4e4;text-align:center;margin:auto;min-width:222px;background-color:#ddf4e4;">
+<center><a href="donate/donate.html" class="button" style="margin:20px;padding:0px;text-decoration:none;-webkit-box-shadow: 0px 0px 7px 4px rgba(46,46,46,0.09);-moz-box-shadow: 0px 0px 7px 4px rgba(46,46,46,0.09);box-shadow: 0px 0px 7px 4px rgba(46,46,46,0.09);margin:0px;padding:15px;border-radius:10px;border:10px solid #ddf4e4;text-align:center;margin:auto;min-width:222px;background-color:#ddf4e4;">
 Become a Fundraiser</a>
 </center>
 
-
-<!-- Set your donate page hard-link -->
-<script>
-	$.get("front_donatelink.txt", function(donatelink) {
-	window.donateurl = donatelink;
-	$("a#donatepage.button").attr("href", window.donateurl);
-	});
-</script>
 
 
 
@@ -101,13 +97,7 @@ Become a Fundraiser</a>
 
 
 
-<!-- Update front_goal.txt to set a fundraising goal -->
-<script>
-	$.get("front_goal.txt", function(response) {
-	var goaltxt = response;
-    window.value1 = parseFloat(goaltxt);
-	});
-</script>
+
 
 
 
