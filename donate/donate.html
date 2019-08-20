@@ -40,31 +40,91 @@ Zimbabwe ZWHope Fundrasing
 <!-- Embed Jquery -->
 
 <!-- Embed QR script https://github.com/jeromeetienne/jquery-qrcode-->
+<!-- javascript to copy text http://www.seabreezecomputers.com/tips/copy2clipboard.htm -->
+<script>
+function myFunction1() {
+  /* Get the text field */
+  var copyText = document.getElementById("bitcoin");
+  /* Select the text field */
+  copyText.select();
 
+  /* Copy the text inside the text field */
+  document.execCommand("copy");
+} </script>
+<script>
+function myFunction2() {
+  /* Get the text field */
+  var copyText = document.getElementById("ethereum");
+  /* Select the text field */
+  copyText.select();
+
+  /* Copy the text inside the text field */
+  document.execCommand("copy");
+} </script>
+<script>
+function myFunction3() {
+  /* Get the text field */
+  var copyText = document.getElementById("litecoin");
+  /* Select the text field */
+  copyText.select();
+
+  /* Copy the text inside the text field */
+  document.execCommand("copy");
+} </script>
+<script>
+function myFunction4() {
+  /* Get the text field */
+  var copyText = document.getElementById("bcash");
+  /* Select the text field */
+  copyText.select();
+
+  /* Copy the text inside the text field */
+  document.execCommand("copy");
+} </script>
+<script>
+function myFunction5() {
+  /* Get the text field */
+  var copyText = document.getElementById("dash");
+  /* Select the text field */
+  copyText.select();
+
+  /* Copy the text inside the text field */
+  document.execCommand("copy");
+} </script>
+<script>
+function myFunction6() {
+  /* Get the text field */
+  var copyText = document.getElementById("zcash");
+  /* Select the text field */
+  copyText.select();
+
+  /* Copy the text inside the text field */
+  document.execCommand("copy");
+} </script>
+</div>
 
 </div>
 
 <div class="column">
+<!-- Copy Address to Clipboard browserside requiring correct browser URL http://www.seabreezecomputers.com/tips/copy2clipboard.htm -->
 <div style="text-align:center;margin:auto;" >
-  <button class="make_copy_button" >
-1NcaZTJRkam1ts6gDnJQrWMGDtTMFZr9me
-</button>
+<input type="text" value="1NcaZTJRkam1ts6gDnJQrWMGDtTMFZr9me" id="bitcoin"><br>
+<button onclick="myFunction1()"> Copy the Address </button>
 </div>
 <br>
 </div>
 
 <div class="column">
 <div style="text-align:center;margin:auto;" >
-<button class="make_copy_button" >
-0x9C14aA15D7Ea99D041AB6f8509d79c81DB830B1e
-</button>
+<input type="text" value="0x9C14aA15D7Ea99D041AB6f8509d79c81DB830B1e" id="ethereum"><br>
+<button onclick="myFunction2()"> Copy the Address </button>
 </div>
 <br></div>
 <div class="column">
 <div style="text-align:center;margin:auto;" >
-<button class="make_copy_button" >
-Ldyk9WXEKvF4nL72roAscCYLGd87Va3iwt
-</button>
+<input type="text" value="Ldyk9WXEKvF4nL72roAscCYLGd87Va3iwt" id="litecoin"><br>
+<button onclick="myFunction3()"> Copy the Address </button>
+
 </div>
 <br></div>
 </div>
@@ -73,30 +133,33 @@ Ldyk9WXEKvF4nL72roAscCYLGd87Va3iwt
 <section class="row">
 <center><h3><i class="column" style="position:relative;bottom:5px;color:#8cbc9a;text-align:center;">Bitcoin Cash</i></h3></center>
 <center><h3><i class="column" style="position:relative;bottom:5px;color:#8cbc9a;text-align:center;">Dash</i></h3></center>
-<center><h3><i class="column" style="position:relative;bottom:5px;color:#8cbc9a;text-align:center;">Digibyte</i></h3></center>
+<center><h3><i class="column" style="position:relative;bottom:5px;color:#8cbc9a;text-align:center;">Zcash</i></h3></center>
 </section>
 
 <div class="column">
 <div style="text-align:center;margin:auto;" >
-<button class="make_copy_button" >
-qq5vshwuer57sfqakahz2vt2axppjy2eustkwf8pxh
-</button>
+<input type="text" value="qq5vshwuer57sfqakahz2vt2axppjy2eustkwf8pxh" id="bcash"><br>
+<button onclick="myFunction4()"> Copy the Address </button>
+
+
 </div>
 <br>
 </div>
 
 <div class="column">
 <div style="text-align:center;margin:auto;" >
-<button class="make_copy_button" >
-XgzMSjoC61uZPpJPrDRSndhMxJccqLdSQv
-</button>
+<input type="text" value="XgzMSjoC61uZPpJPrDRSndhMxJccqLdSQv" id="dash"><br>
+<button onclick="myFunction5()"> Copy the Address </button>
+
+
 </div>
 <br></div>
 <div class="column">
 <div style="text-align:center;margin:auto;" >
-<button class="make_copy_button" >
-DSd4r3GJFqwYGcnLMTtJmy8hAtrAVyGeJF
-</button>
+<input type="text" value="t1UkkLwYdMyhts3yw65r121oJjKftY2twUS" id="zcash"><br>
+<button onclick="myFunction6()"> Copy the Address </button>
+
+
 </div>
 <br></div>
 </div>
