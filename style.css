@@ -1,3 +1,19 @@
+html {
+  align-content: center;
+  background-color: #5a4882 ;
+}
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 body{margin:0px;padding:0px;background-color:#5a4882;margin:0;padding:0;background-size:1200% 1200%;color:#fff;font-family:'Calibri'}
 .wrapper{padding:5px;max-width:1024px;width:90%;margin:1px auto}
 header{margin:0px;width:100%;padding:20px;margin-bottom:15px;margin-top:-1px}
